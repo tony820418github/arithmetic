@@ -10,6 +10,10 @@ public class Digraph<T> {
      GraphVertex<T>[] di;
      int vertexNum;
 
+    public GraphVertex<T>[] getVertexs() {
+        return di;
+    }
+
     public Digraph(GraphVertex<T>[] di) {
         this.di = di;
         vertexNum = di.length;
