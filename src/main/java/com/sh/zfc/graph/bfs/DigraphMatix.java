@@ -15,6 +15,9 @@ public class DigraphMatix {
         verNum = di.length;
     }
 
+    public int getVerNum() {
+        return verNum;
+    }
 
     public int[][] getMatrix() {
         return matrix;
